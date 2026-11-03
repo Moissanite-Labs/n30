@@ -2,6 +2,14 @@
 
 Status: design proposal, not an implemented architecture. Canonical draft in Neophile; n001 references it rather than maintaining a second copy.
 
+## Architectural hypothesis from the owner
+
+The owner's broader vision is that the fitting system being built with the exo ecosystem and ML labs could develop expertise in fitting models of people to each other and to other things, including jobs, opportunities, and investments. This is a strategic hypothesis about transfer of expertise, not evidence that these capabilities already exist or work.
+
+The possible common thread is representation, fit, evaluation, and feedback. Model/runtime fitting and human relevance are different problems; no transfer of accuracy, fairness, consent, or safety should be assumed. Validate each application with its own evidence and human feedback before claiming a shared advantage. This proposal does not establish any technical integration with exo or ML labs.
+
+People retain control of participation and consequential choices. Investment examples are exploratory scope, not authorization to recommend or execute trades; employment examples do not authorize automated hiring determinations. Any later domain-specific implementation needs separate review and applicable safeguards.
+
 ## Small common contract
 
 Neophile and n001 need a way to turn explicitly selected context into evidence-backed discovery. Share concepts first. Extract reusable code only when both prototypes demonstrate the same need.
