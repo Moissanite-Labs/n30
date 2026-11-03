@@ -1,10 +1,10 @@
-# Neophile: product foundation
+# n30: product foundation
 
 ## Confirmed direction
 
-Neophile is for a neophile: someone drawn to new things to learn and explore. A local model uses context the person chooses to provide, such as browser history, social-media exports, email, local file directories, or cloud storage. It surfaces unfamiliar things with high personal relevance and interconnectedness.
+n30 is for a neophile: someone drawn to new things to learn and explore. A local model uses context the person chooses to provide, such as browser history, social-media exports, email, local file directories, or cloud storage. It surfaces unfamiliar things with high personal relevance and interconnectedness.
 
-The companion project [n001](https://github.com/aska-digital/n001) applies this discovery idea to people. A user can choose to give n001 access to the same kinds of resources. Access is optional, not inherited automatically from Neophile.
+The companion project [n001](https://github.com/Moissanite-Labs/n001) applies this discovery idea to people. A user can choose to give n001 access to the same kinds of resources. Access is optional, not inherited automatically from n30.
 
 ## Proposed first experiment
 
