@@ -1,6 +1,6 @@
 # Shared context and discovery foundation (proposal)
 
-Status: design proposal, not an implemented architecture. Canonical draft in Neophile; n001 references it rather than maintaining a second copy.
+Status: design proposal, not an implemented architecture. Canonical draft in n30; n001 references it rather than maintaining a second copy.
 
 ## Architectural hypothesis from the owner
 
@@ -12,13 +12,13 @@ People retain control of participation and consequential choices. Investment exa
 
 ## Small common contract
 
-Neophile and n001 need a way to turn explicitly selected context into evidence-backed discovery. Share concepts first. Extract reusable code only when both prototypes demonstrate the same need.
+n30 and n001 need a way to turn explicitly selected context into evidence-backed discovery. Share concepts first. Extract reusable code only when both prototypes demonstrate the same need.
 
 Proposed records:
 - **Source:** an opaque identifier, source kind, provenance, and ownership information. Raw content stays in a private, local boundary.
 - **Permission:** source identifier, product, allowed purpose, allowed derived uses, and revocation state. Collection, matching, and disclosure are separate grants. Missing permission means no access.
 - **Context fact:** a claim with evidence references, uncertainty, timestamp, and the permissions inherited from its source. Do not silently turn weak inference into fact.
-- **Candidate:** a learning resource in Neophile; an opted-in participant's approved discoverable information in n001.
+- **Candidate:** a learning resource in n30; an opted-in participant's approved discoverable information in n001.
 - **Recommendation:** candidate, reasons, uncertainty, and provenance. Private supporting evidence is separate from displayable explanation.
 - **Feedback:** explicit user responses and corrections scoped to the product and purpose, not permission for unrelated profiling.
 
@@ -30,7 +30,7 @@ These are conceptual records, not final database fields or an API.
 2. Import the selected subset and preserve provenance.
 3. Derive context locally, respecting exclusions and uncertainty.
 4. Apply eligibility and permission checks before ranking candidates.
-5. Rank for relevance and interconnectedness; account for novelty in Neophile and reciprocal compatibility in n001.
+5. Rank for relevance and interconnectedness; account for novelty in n30 and reciprocal compatibility in n001.
 6. Generate an explanation only from evidence permitted for its intended viewer.
 7. Gather optional feedback and allow correction or withdrawal.
 
@@ -46,7 +46,7 @@ For n001, discovery consent and reciprocal connection choice are additional boun
 
 ## First acceptance scenarios (synthetic fixtures)
 
-- Neophile-only permission never allows n001 to consume the source or its derived context.
+- n30-only permission never allows n001 to consume the source or its derived context.
 - A source allowed in both products still does not appear in a public profile.
 - A malicious instruction inside imported content cannot alter permissions or trigger actions.
 - Removing a source invalidates its derived contributions to subsequent recommendations.
